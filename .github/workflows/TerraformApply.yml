@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - master
     paths:
       - 'infrastructure/**'
   workflow_dispatch:
@@ -16,7 +17,8 @@ jobs:
         working-directory: ./infrastructure
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
+
 
     - name: Install Terraform
       env:
