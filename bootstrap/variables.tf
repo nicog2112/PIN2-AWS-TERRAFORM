@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "name_of_s3_bucket" {
   description = "Name of S3 bucket for terraform state"
   type        = string
-  default     = "nelson-rios.mundose22"
+  default     = "nicolas-gauna.mundose22"
 }
 
 variable "dynamo_db_table_name" {

@@ -54,7 +54,7 @@ terraform apply
 
 ```bash
 # Verify S3 bucket
-aws s3 ls | grep nelson-rios.mundose22
+aws s3 ls | grep nicolas-gauna.mundose22
 
 # Verify DynamoDB table
 aws dynamodb list-tables | grep terraformstatelock
